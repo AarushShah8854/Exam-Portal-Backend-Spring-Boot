@@ -30,7 +30,7 @@ public class ExamserverApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		/*System.out.println("Inside run method of CommandLineRunner");
+		System.out.println("Inside run method of CommandLineRunner");
 
 		try {
 			User user = new User();
@@ -58,7 +58,7 @@ public class ExamserverApplication implements CommandLineRunner {
 
 		} catch (UserFoundException e) {
 			e.printStackTrace();
-		}*/
+		}
 
 	}
 }
